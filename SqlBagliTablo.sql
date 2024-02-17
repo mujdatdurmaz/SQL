@@ -71,7 +71,7 @@ VALUES('Kurutma Mak.','',12500,12,2)
 
 
 --fiyatý 20000 ile 30000 arasý ürünlerin stok sayýlarý 100 olsun
-UPDATE Urunler SET UrunStokAdet=100
+UPDATE Urunler SET UrunStokAdet=100, Urunad='ali'
 WHERE UrunFiyat BETWEEN 20000 and 30000
 
 
